@@ -1,9 +1,16 @@
 import React from 'react'
+import Layout from './layout/Layout'
 
-function Home() {
+function Homes() {
   return (
-    <div className='bg-pink-600 h-[100vh]'>Home</div>
+    <div className='h-[100vh]'>Home</div>
   )
 }
 
-export default Home
+export function Home() {
+  return (
+    <Layout>
+      <Homes />
+    </Layout>
+  )
+}
