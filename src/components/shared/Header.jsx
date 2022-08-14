@@ -16,7 +16,11 @@ export function Header() {
         <Link href="/">
           <a className="flex items-center gap-2">
             <Image height={60} width={60} src="/logo.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-            <span style={{ fontFamily: 'Gulzar, serif' }} className="text-sky-700 self-center text-xl font-semibold whitespace-nowrap">
+            <span
+              style={{ fontFamily: 'Noto Kufi Arabic, sansSerif' }}
+              // style={{ fontFamily: 'Gulzar, serif' }} 
+              className="text-sky-700 self-center text-xl font-semibold whitespace-nowrap"
+            >
               تودو اَپ
             </span>
           </a>
@@ -72,12 +76,12 @@ export function Header() {
             </li>
             <li>
               <Link href="#">
-                <a className="text-xl font-bold py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">خدمات</a>
+                <a className="text-xl font-bold py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">اِتيهاس</a>
               </Link>
             </li>
             <li>
               <Link href="#">
-                <a className="text-xl font-bold py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">قیمتان</a>
+                <a className="text-xl font-bold py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">سبًڠر </a>
               </Link>
             </li>
             <li>
